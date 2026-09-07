@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="./banner.svg" alt="ReconPal" width="800">
+</div>
+
+<div align="center">
 
 ```
   ___                    ___      _
