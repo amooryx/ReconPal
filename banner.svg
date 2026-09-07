@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="118" viewBox="0 0 800 118" role="img" aria-label="ReconPal">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#00ff41" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0.5"/>
+    </linearGradient>
+    <clipPath id="f"><rect x="1" y="1" width="798" height="116" rx="9"/></clipPath>
+    <clipPath id="t"><rect x="34" y="34" width="0" height="30">
+      <animate attributeName="width" values="0;0;144;144;0;0"
+               keyTimes="0;0.06;0.34;0.90;0.96;1" dur="7s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+
+  <rect width="800" height="118" rx="9" fill="#05080d"/>
+  <rect x="0.5" y="0.5" width="799" height="117" rx="9" fill="none"
+        stroke="#00ff41" stroke-opacity="0.35"/>
+
+  <g clip-path="url(#f)">
+    <g>
+      <rect x="-170" y="0" width="170" height="118" fill="url(#g)"/>
+      <animateTransform attributeName="transform" type="translate"
+                        values="0,0;980,0" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <rect x="34" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="0.56s" repeatCount="indefinite"/></rect><rect x="60" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="0.72s" repeatCount="indefinite"/></rect><rect x="86" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="0.38s" repeatCount="indefinite"/></rect><rect x="112" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="1.0s" repeatCount="indefinite"/></rect><rect x="138" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="1.63s" repeatCount="indefinite"/></rect><rect x="164" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="1.45s" repeatCount="indefinite"/></rect><rect x="190" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="1.39s" repeatCount="indefinite"/></rect><rect x="216" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="1.52s" repeatCount="indefinite"/></rect><rect x="242" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="1.84s" repeatCount="indefinite"/></rect><rect x="268" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="2.18s" repeatCount="indefinite"/></rect><rect x="294" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="2.11s" repeatCount="indefinite"/></rect><rect x="320" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="0.51s" repeatCount="indefinite"/></rect><rect x="346" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="0.31s" repeatCount="indefinite"/></rect><rect x="372" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="0.1s" repeatCount="indefinite"/></rect><rect x="398" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="1.31s" repeatCount="indefinite"/></rect><rect x="424" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="0.32s" repeatCount="indefinite"/></rect><rect x="450" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="1.66s" repeatCount="indefinite"/></rect><rect x="476" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="0.25s" repeatCount="indefinite"/></rect><rect x="502" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="2.14s" repeatCount="indefinite"/></rect><rect x="528" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="0.34s" repeatCount="indefinite"/></rect><rect x="554" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="1.97s" repeatCount="indefinite"/></rect><rect x="580" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="0.16s" repeatCount="indefinite"/></rect><rect x="606" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="1.41s" repeatCount="indefinite"/></rect><rect x="632" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="0.17s" repeatCount="indefinite"/></rect><rect x="658" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="0.73s" repeatCount="indefinite"/></rect><rect x="684" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="2.13s" repeatCount="indefinite"/></rect><rect x="710" y="88" width="14" height="2" fill="#00ff41" opacity="0.25"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" begin="2.16s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <text x="776" y="28" text-anchor="end"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="11" fill="#00ff41" opacity="0.65" letter-spacing="2">RECON</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19">
+    <g clip-path="url(#t)">
+      <text x="34" y="58" fill="#00ff41">$ ./ReconPal</text>
+    </g>
+    <rect x="182" y="40" width="10" height="22" fill="#00ff41">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1"
+               dur="1.05s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
