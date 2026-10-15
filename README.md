@@ -124,7 +124,7 @@ Scope.from_target("https://example.com")
 # blocks: evil.com, example.com.evil.com, notexample.com
 ```
 
-Suffix confusion (`example.com.evil.com`) is handled correctly, which matters when following redirects. Targets resolving to private, loopback, or link-local ranges are refused unless you pass `--allow-private`.
+Suffix confusion (`example.com.evil.com`) is handled correctly, which matters when following redirects. Targets resolving to private, loopback, or link-local ranges are refused unless you pass `--allow-private`. If DNS resolution fails or returns no usable address, the scope guard refuses the request because it cannot verify that the target is safe. This check is based on DNS answers at request time; it does not pin the resolved address for the subsequent connection, so use only trusted DNS and authorized targets.
 
 Pacing is conservative by default: a 4 rps token bucket with jitter, halving on any `429` or `503` and recovering slowly. This is partly courtesy and partly self-interest — once bot mitigation starts throttling you, timing-based inference is worthless anyway.
 

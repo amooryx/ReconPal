@@ -129,16 +129,27 @@ def normalise_target(target: str) -> str:
 def _resolves_private(host: str) -> bool:
     try:
         infos = socket.getaddrinfo(host, None)
-    except OSError:
-        return False
+    except OSError as exc:
+        raise ScopeError(
+            f"could not resolve {host}; refusing the request because its "
+            "address safety cannot be verified"
+        ) from exc
+
+    resolved = False
     for info in infos:
         addr = info[4][0]
         try:
             ip = ipaddress.ip_address(addr)
         except ValueError:
             continue
+        resolved = True
         if any(ip in net for net in _PRIVATE_NETS):
             return True
+    if not resolved:
+        raise ScopeError(
+            f"could not verify an address for {host}; refusing the request "
+            "because its address safety cannot be verified"
+        )
     return False
 
 
